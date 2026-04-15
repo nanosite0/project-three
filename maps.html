@@ -27,11 +27,17 @@
           <h1>Map</h1>
         </div>
         <section class="info-wrap">
-        <script defer
+        <script
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"
-          >
+          defer>
         </script>
-        </section>
+        <gmp-map
+          center="37.4220656,-122.0840897"
+          zoom="10"
+          map-id="DEMO_MAP"
+          style="height: 500px"
+        >
+        </gmp-map>
         </section>
 
       </div>
@@ -43,3 +49,10 @@
   </div>
 </body>
 </html>
+
+<!--        <script defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"
+          >
+        </script>
+        
+--!>
