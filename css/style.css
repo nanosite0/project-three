@@ -307,10 +307,11 @@ audio {
 
 @media (max-width: 600px) {
   #main-nav {
-  float: center;
+  float: left;
   position: static;
   font-size: 22px;
   line-height: 0.5;
+  box-shadow: 0px 10px 5px 0px rgba(10, 50, 75, 0.4);
   }
   
   #header {
@@ -323,11 +324,35 @@ audio {
   float: left;
   right: 50%;
   position: relative;
-  padding: 0%;
+  padding: 1%;
+  }
+  
+  #alt-title {
+    border-radius: 15px;
+    padding: 5% 10% 5% 5%;
+    width: 80%;
+    height: 60px;
+    margin: 0 0 20px;
+  }
+
+  #alt-title h1 {
+    padding: 5%;
   }
 }
 
 @media (min-width: 600px) {
+  #main-nav {
+  float: left;
+  position: relative;
+  font-size: 19px;
+  }
+  
+  #main-nav ul li {
+  float: left;
+  position: relative;
+}
+
+@media (min-width: 900px) {
   #main-nav {
   float: left;
   position: relative;
