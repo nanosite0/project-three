@@ -147,8 +147,8 @@ strong {
 #alt-title {
   background-color: #FF8A33;
   border-radius: 25px;
-  padding: 1% 2.5% 2% 3%;
-  width: 35%;
+  padding: 2% 5% 4% 5%;
+  width: 65%;
   height: 10px;
   margin: 0 0 15px;
 }
@@ -157,7 +157,7 @@ strong {
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   color: #FFF;
   float: left;
-  width: 100%;
+  width: 200%;
 }
 
 .container {
@@ -340,11 +340,12 @@ audio {
   }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 900px) {
   #main-nav {
   float: left;
   position: relative;
-  font-size: 19px;
+  font-size: 20px;
+  line-height: 1;
   }
   
   #header {
@@ -371,11 +372,12 @@ audio {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 901px) {
   #main-nav {
   float: left;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.5;
   }
   
   #main-nav ul li {
