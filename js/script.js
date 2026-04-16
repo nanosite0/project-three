@@ -1,6 +1,10 @@
 function init(){
   
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"
-  defer
+  var mapping = {
+    center:(37.4220656,-122.0840897),
+    zoom:10,
+  };
+  
+  var mymap = new Map(document.getElementById("map"),mapping);
   
 }

@@ -26,19 +26,15 @@
         <div id="alt-title">
           <h1>Map</h1>
         </div>
-        <section class="info-wrap">
-        <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"
-          defer>
-        </script>
-        <gmp-map
-          center="37.4220656,-122.0840897"
-          zoom="10"
-          map-id="DEMO_MAP"
-          style="height: 500px"
-        >
-        </gmp-map>
-        </section>
+        <div id="map">
+          <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"
+            defer>
+          </script>
+          <gmp-map
+            style="height: 500px">
+          </gmp-map>
+        </div>
 
       </div>
     </main>
@@ -49,10 +45,3 @@
   </div>
 </body>
 </html>
-
-<!--        <script defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"
-          >
-        </script>
-        
---!>
