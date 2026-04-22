@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>Nanosite - Maps</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> --!>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"></script>
   <script async src="js/script.js"></script>
 </head>
 <body>
@@ -20,28 +21,9 @@
         </ul>
       </nav>
     </header>
-    
-    <main id="main">
-      <div id="content-wrapper">
-        <div id="alt-title">
-          <h1>Map</h1>
-        </div>
-        <div id="map">
-          <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUeD_lgShk2jgK1L1kLxv-U9bsykDXhQ&libraries=maps"
-            defer>
-          </script>
-          <gmp-map
-            style="height: 500px">
-          </gmp-map>
-        </div>
-
-      </div>
-    </main>
-  
-    <footer id="footer">
-      <p>Created by Leonardo Montoya, 2026</p>
-    </footer>
+    <div id="wrapper">
+      <div id="canvas"></div>
+    </div>
   </div>
 </body>
 </html>
