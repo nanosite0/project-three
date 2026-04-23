@@ -3,6 +3,20 @@ body {
   color: #000; /*black*/
 }
 
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: #c00;
+  margin:0 auto;
+  overflow: hidden;
+}
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: #ccc;
+  margin: 30px auto;
+}
+
 @font-face {
   font-family: 'UbuntuTitling-Bold';
   src: url('../media/fonts/UbuntuTitling-Bold.ttf')
